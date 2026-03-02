@@ -1,0 +1,116 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Candidate Comparison Study",
+        "version": "pilot",
+        "authors": [
+            "A. Kratman, M. Prue"
+        ],
+        "date": "2026-02-23",
+        "description": "A simple questionnaire study",
+        "organizations": [
+            "Abbey's Sanity"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "your@email.com",
+        "helpTextPath": "basic-questionnaire-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "withSidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "basic-questionnaire-study/assets/introduction.md",
+            "response": []
+        },
+        "first-question-set": {
+            "type": "questionnaire",
+            "response": [
+                {
+                    "id": "q1-name",
+                    "prompt": "What is your first name?",
+                    "required": true,
+                    "location": "aboveStimulus",
+                    "type": "longText",
+                    "placeholder": "Please enter your first name"
+                }
+            ]
+        },
+        "vis_1": {
+            "type": "image",
+            "path": "public/basic-questionnaire-study/assets/specific_img/base.png",
+            "instruction": "To what degree did Jane Doe lose this election?",
+            "style": {
+            "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                "id": "q3-pcbase",
+                "prompt": "How badly did Jane Doe lose to John Driveway (%)?",
+                "required": true,
+                "location": "aboveStimulus",
+                "type": "numerical",
+                "placeholder": "Enter your guess, range from 0 - 100",
+                "max": 100,
+                "min": 0
+                }]
+        },
+
+        "vis_2": {
+            "type": "image",
+            "path": "public/basic-questionnaire-study/assets/specific_img/3d.png",
+            "instruction": "To what degree did Jane Doe lose this election?",
+            "style": {
+            "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                "id": "q3-pcbase",
+                "prompt": "How badly did Jane Doe lose to John Driveway (%)?",
+                "required": true,
+                "location": "aboveStimulus",
+                "type": "numerical",
+                "placeholder": "Enter your guess, range from 0 - 100",
+                "max": 100,
+                "min": 0
+                }]
+        },
+
+
+        "vis_3": {
+            "type": "image",
+            "path": "public/basic-questionnaire-study/assets/specific_img/hole.png",
+            "instruction": "To what degree did Jane Doe lose this election?",
+            "style": {
+            "width": "800px"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                "id": "q3-pcbase",
+                "prompt": "How badly did Jane Doe lose to John Driveway (%)?",
+                "required": true,
+                "location": "aboveStimulus",
+                "type": "numerical",
+                "placeholder": "Enter your guess, range from 0 - 100",
+                "max": 100,
+                "min": 0
+                }]
+        }
+    },
+
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "vis_1",
+            "vis_2",
+            "vis_3"
+        ]
+    }
+}
