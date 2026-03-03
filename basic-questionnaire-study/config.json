@@ -101,7 +101,7 @@
                 "type": "numerical",
                 "placeholder": "Enter your guess, range from 0 - 100",
                 "max": 100,
-                "min": 0
+                "min": 0                
                 }]
         }
     },
@@ -110,6 +110,7 @@
         "order": "fixed",
         "components": [
             "introduction",
+            "first-question-set",
             "vis_1",
             "vis_2",
             "vis_3"
