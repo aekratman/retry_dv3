@@ -64,7 +64,7 @@
 
         "vis_2": {
             "type": "image",
-            "path": "public/basic-questionnaire-study/assets/specific_img/3d.png",
+            "path": "basic-questionnaire-study/assets/specific_img/3d.png",
             "instruction": "To what degree did Jane Doe lose this election?",
             "style": {
             "width": "800px"
@@ -86,7 +86,7 @@
 
         "vis_3": {
             "type": "image",
-            "path": "public/basic-questionnaire-study/assets/specific_img/hole.png",
+            "path": "basic-questionnaire-study/assets/specific_img/hole.png",
             "instruction": "To what degree did Jane Doe lose this election?",
             "style": {
             "width": "800px"
