@@ -5,8 +5,7 @@
   ],
   "configs": {
     "basic-questionnaire-study": {
-	"path": 
-  "basic-questionnaire-study/config.json"
+	"path": "basic-questionnaire-study/config.json"
 }
   }
 }
