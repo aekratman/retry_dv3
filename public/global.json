@@ -6,7 +6,7 @@
   "configs": {
     "basic-questionnaire-study": {
 	"path": 
-  "/public/basic-questionnaire-study/config.json"
+  "public/basic-questionnaire-study/config.json"
 }
   }
 }
