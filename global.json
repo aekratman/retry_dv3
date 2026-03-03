@@ -6,10 +6,7 @@
   ],
   "configs": {
     "basic-questionnaire-study": {
-	"path": "basic-questionnaire-study/config.json"
-},
-"demo-html": {
-  "path": "demo-html/config.json"
-}
+        "path": "basic-questionnaire-study/config.json"
+    } 
   }
 }
