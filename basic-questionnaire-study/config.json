@@ -15,7 +15,7 @@
         ]
     },
     "uiConfig": {
-        "contactEmail": "your@email.com",
+        "contactEmail": "aekratman@email.com",
         "helpTextPath": "basic-questionnaire-study/assets/help.md",
         "logoPath": "revisitAssets/revisitLogoSquare.svg",
         "withProgressBar": true,
@@ -51,7 +51,7 @@
             "nextButtonLocation": "sidebar",
             "response": [
                 {
-                "id": "q3-pcbase",
+                "id": "q1-pcbase",
                 "prompt": "How badly did Jane Doe lose to John Driveway (%)?",
                 "required": true,
                 "location": "aboveStimulus",
@@ -72,7 +72,7 @@
             "nextButtonLocation": "sidebar",
             "response": [
                 {
-                "id": "q3-pcbase",
+                "id": "q2-pcbase",
                 "prompt": "How badly did Jane Doe lose to John Driveway (%)?",
                 "required": true,
                 "location": "aboveStimulus",
