@@ -1,3 +1,6 @@
+
+
+
 # The Public Folder: Experiment Configs, Stimuli and Resources
 
 Files that are in the `public` folder are exposed on the study website. For technical reasons, all static files (including reVISit configurations) have to be in the public folder. 
